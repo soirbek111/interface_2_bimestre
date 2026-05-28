@@ -1,0 +1,182 @@
+/*ESTILO GERAL DO SITE*/
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+/*NAVBAR*/
+
+.navbar{
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.2);
+}
+
+.navbar-brand{
+    font-size: 1.5rem;
+}
+
+.nav-link{
+    transition: 0.3s;
+}
+
+.nav-link:hover{
+    color: #0d6efd !important;
+}
+
+/*TÍTULOS*/
+
+.titulo{
+    color: #0d6efd;
+    font-weight: bold;
+}
+
+h1,
+h2{
+    font-weight: bold;
+}
+
+/*BANNER / CARROSSEL*/
+
+.banner{
+    width: 100%;
+    height: 500px !important;
+    object-fit: cover;
+}
+
+.carousel-item{
+    height: 500px;
+}
+
+.carousel-item img{
+    width: 100%;
+    height: 500px !important;
+    object-fit: cover;
+}
+
+/*CARDS*/
+
+.card{
+    border: none;
+    border-radius: 12px;
+    overflow: hidden;
+    transition: 0.4s;
+}
+
+.card:hover{
+    transform: translateY(-8px);
+    box-shadow: 0 10px 20px rgba(0,0,0,0.2);
+}
+
+.card img{
+    height: 250px;
+    object-fit: cover;
+}
+
+.card-title{
+    color: #212529;
+    font-weight: bold;
+}
+
+/*BOTÕES*/
+
+.btn-primary{
+    background-color: #0d6efd;
+    border-color: #0d6efd;
+}
+
+.btn-primary:hover{
+    background-color: #0b5ed7;
+    border-color: #0a58ca;
+}
+
+.btn-success{
+    transition: 0.3s;
+}
+
+.btn-success:hover{
+    transform: scale(1.05);
+}
+
+/*ACORDEON*/
+
+.accordion-button:not(.collapsed){
+    background-color: #0d6efd;
+    color: white;
+}
+
+/*ESTATÍSTICAS*/
+
+.text-primary{
+    color: #0d6efd !important;
+}
+
+/*FORMULÁRIO*/
+
+form{
+    background: white;
+}
+
+.form-control:focus{
+    border-color: #0d6efd;
+    box-shadow: 0 0 5px #0d6efd;
+}
+
+/*REDES SOCIAIS*/
+
+.social i{
+    font-size: 30px;
+    margin: 10px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.social i:hover{
+    color: #0d6efd;
+    transform: scale(1.2);
+}
+
+/*MAPA*/
+
+iframe{
+    border-radius: 10px;
+}
+
+/*RODAPÉ*/
+
+footer{
+    background-color: #121212;
+    color: white;
+}
+
+footer i{
+    font-size: 25px;
+    margin: 0 10px;
+    transition: 0.3s;
+}
+
+footer i:hover{
+    color: #0d6efd;
+}
+
+/*RESPONSIVIDADE*/
+
+@media (max-width: 768px){
+
+    .banner{
+        height: 300px;
+    }
+
+    .carousel-item{
+        height: 300px;
+    }
+
+    h1{
+        font-size: 2rem;
+    }
+
+    h2{
+        font-size: 1.5rem;
+    }
+
+}
